@@ -492,9 +492,9 @@
 }
 
 .small-bot swiper {
-    width: 560rpx;
-    height: 784rpx;
-    margin: 120rpx auto 0;
+    width: 580rpx;
+    height: 685rpx;
+    margin: 200rpx auto 0;
     border-radius: 10rpx;
     overflow: hidden;
 }

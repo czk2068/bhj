@@ -11,7 +11,7 @@
             <swiper-item wx:for="{{startadv.data}}">
                 <image bindtap="indexChangebtn" class="slide-image" data-type="{{item.linkurl}}" height="100%" src="{{item.imgurl}}" width="100%" wx:if="{{item.click==0}}" style='position:absolute'></image>
                 <image bindtap="adverclose" class="slide-image" height="100%" src="{{item.imgurl}}" width="100%" wx:if="{{item.click==1}}" style='position:absolute'></image>
-                <button style='width:60%;margin-top:91%;border-radius:46rpx;background:#ffffff;color:#ffa200;border:1px solid #ffa200'>暂时逛逛</button>
+                <button style='width:60%;margin-top:72%;border-radius:46rpx;background:#ffffff;color:#ffa200;border:1px solid #ffa200'>暂时逛逛</button>
                 <button style='width:60%;margin-top:6%;border-radius:46rpx;background:#ffffff;color:#fd5555;border:1px solid #fd5555'>继续下单</button>
             </swiper-item>
         </swiper>
